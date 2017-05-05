@@ -16,12 +16,12 @@ Let's learn how to build that Node.js web-server using Bluemix! Before we start,
 
 1) Get a <a href="https://console.ng.bluemix.net/registration/">Bluemix Account</a>
 
-2) Install <a href="https://brew.sh/">Homebrew</a> or
-another package manager
+2) Install <a href="https://brew.sh/">Homebrew</a> if you have a mac. Otherwise, skip this step.
 
-3) Install <a href="//blog.teamtreehouse.com/install-node-js-npm-mac">npm</a> and Node
+3) Install npm/node <a href="http://blog.teamtreehouse.com/install-node-js-npm-mac"> for Mac</a> or npm/node
+<a href="http://blog.teamtreehouse.com/install-node-js-npm-windows"> for Windows</a>
 
-4) Install <a href="//blog.teamtreehouse.com/install-node-js-npm-mac">cf</a>
+4) Install <a href="https://github.com/cloudfoundry/cli#downloads">cf</a>
 command line tool<hr>
 
 <h4 id="code">Starter Code</h4>
