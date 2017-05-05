@@ -4,6 +4,7 @@ relativeURLs = false
 languageCode = "en-us"
 title = "Horea's Blog"
 disqusShortname = "https-horeaporutiu-github-io-1"
+googleAnalytics = "UA-98632670-1"
 paginate = 5
 
 [taxonomies]
