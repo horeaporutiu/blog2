@@ -1,1 +1,4 @@
 public/
+[submodule "themes/hugo-geo/layouts/partials/footer.html"]
+  path = themes/hugo-geo/layouts/partials/footer.html
+  ignore = dirty
