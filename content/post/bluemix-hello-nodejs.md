@@ -9,7 +9,9 @@ tags = []
 title = "Run Node.js server with Bluemix"
 
 +++
-Let's learn how to build that Node.js web-server using Bluemix! Before we start, you will need to do a few things.
+Let's learn how to build that Node.js web-server using Bluemix! If you prefer video
+tutorials, please watch <a href="https://www.youtube.com/watch?v=enTQkCb8vlU&t=4s">my video</a> on this topic.
+Before we start, you will need to do a few things.
 
 <hr>
 <h4 id="setup">Initial Setup</h4>

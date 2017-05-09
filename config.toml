@@ -39,6 +39,13 @@ paginate = 5
 	[[params.socialbuttons]]
 	faicon = "stack-overflow"
 	url = "https://stackoverflow.com/users/6785292/horea-porutiu?tab=profile"
+	[[params.socialbuttons]]
+	faicon = "youtube"
+	url = "https://www.youtube.com/user/horeaporutiu"
+
+	[[params.navlinks]]
+	name = "Home"
+	url = ""
 
 	[[params.navlinks]]
 	name = "About"
