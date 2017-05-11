@@ -16,12 +16,12 @@ to ask questions or drop some suggestions below!
 <hr>
 <h4 id="setup">Setup Your Blog</h4>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oUjk6wpJn7I" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="315" src="https://www.youtube.com/embed/oUjk6wpJn7I" frameborder="0" allowfullscreen></iframe>
 
 <hr>
 <h4 id="setup">Customize!</h4>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4W9sVoVYMLo" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="315" src="https://www.youtube.com/embed/4W9sVoVYMLo" frameborder="0" allowfullscreen></iframe>
 
 <hr>
 Enjoy!
