@@ -12,14 +12,18 @@ div pre{
 	-webkit-overflow-scrolling: touch;
   overflow-y: scroll;
   position: relative;
+  width: 85%;
+  height: inherit;
+
 	/* important:  dimensions or positioning here! */
 }
 
 .scroll-wrapper iframe {
-  height: 20em;
   width: 100%;
 	/* nada! */
 }
+
+
 
 
 
