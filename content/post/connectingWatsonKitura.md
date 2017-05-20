@@ -23,6 +23,12 @@ a language translation service on top of the existing text to speech service.
 
 <video controls="controls" width="800" height="600" name="Video Name" src="../../img/watsonApp.mov"></video>
 
+Below is the site that I launched with Kitura.
+
+<video controls="controls" width="800" height="600" name="Video Name" src="../../img/site.mov"></video>
+
+The site shown above can be found at https://horeaporutiu.github.io/watsonSpeaks/
+
 <hr>
 
 <h4 id="setup">Getting Started</h4>
