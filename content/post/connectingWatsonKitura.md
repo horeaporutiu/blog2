@@ -21,11 +21,14 @@ to check out the source code of the app I made in the video below you can find i
 a language translation service on top of the existing text to speech service.
 
 
-<video controls="controls" width="800" height="600" name="Video Name" src="../../img/watsonApp.mov"></video>
+<div class="scroll-wrapper" id = "youtube"><iframe width="560" height="315"
+src="https://www.youtube.com/embed/pN4BrtXp7lQ" allowfullscreen></iframe></div>
 
 Below is the site that I launched with Kitura.
 
-<video controls="controls" width="800" height="600" name="Video Name" src="../../img/site.mov"></video>
+
+<div class="scroll-wrapper" id = "youtube"><iframe width="560" height="315"
+src="https://www.youtube.com/embed/MKJIhObJLlg" allowfullscreen></iframe></div>
 
 The site shown above can be found at https://horeaporutiu.github.io/watsonSpeaks/
 
@@ -147,7 +150,10 @@ Watch the video below to learn how to add the frameworks by going into our Carth
 and opening the correct file. The last step in the video shows adding the
 "Run Scrip Phase" in the "Build Phases" section of our app.
 
-<video controls="controls" width="800" height="600" name="Video Name" src="../../img/setupLanguage.mov"></video>
+<div class="scroll-wrapper" id = "youtube"><iframe width="560" height="315"
+src="https://www.youtube.com/embed/Y0jBojtzUk0" allowfullscreen></iframe></div>
+
+
 
 <br>
 <hr>
