@@ -34,7 +34,7 @@ highlightjs   = true # Syntax highlighting
 lang          = "en"
 footertext    = "Horea Porutiu © 2017. All rights reserved." # Text to show in footer (overrides default text)
 
-fadein          = true # Turn on/off the fade-in effect
+fadein          = false # Turn on/off the fade-in effect
 
 showblog        = true # Show Blog section on home page
 showallposts    = true # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
