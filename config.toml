@@ -20,7 +20,7 @@ author        = "Horea Porutiu" # Full name shows on blog post pages
 firstname     = "Horea" # First name shows in introduction on main page
 tagline       = "I'm a software engineer." # Appears after the introduction
 introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
-theme         = "dark" # Choose 'light' or 'dark'
+theme         = "light" # Choose 'light' or 'dark'
 avatar        = "img/profPic.JPG" # Path to image in static folder eg. img/avatar.png
 email         = "horeaporutiu@gmail.com" # Shows in contact section, or leave blank to omit
 localtime     = true # Show your current local time in contact section
@@ -34,7 +34,7 @@ highlightjs   = true # Syntax highlighting
 lang          = "en"
 footertext    = "Horea Porutiu © 2017. All rights reserved." # Text to show in footer (overrides default text)
 
-fadein          = false # Turn on/off the fade-in effect
+fadein          = true # Turn on/off the fade-in effect
 
 showblog        = true # Show Blog section on home page
 showallposts    = true # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
