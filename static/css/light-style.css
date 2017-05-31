@@ -1,3 +1,8 @@
+.pic {
+    max-width: 100%;
+    height: auto;
+}
+
 .scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
   overflow-y: scroll;
