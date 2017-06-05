@@ -8,7 +8,6 @@
   overflow-y: scroll;
   position: relative;
   width: 85%;
-  height: inherit;
 
 	/* important:  dimensions or positioning here! */
 }
