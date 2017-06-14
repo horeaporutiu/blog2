@@ -232,4 +232,18 @@ request.end()
 res.send(result)
 ```
 <br>
-Please leave a comment if you have any questions.
+<hr>
+<h3 id="">Thoughts</h3>
+<br>
+After working through both implementations, I think both URLSession and KituraNet
+have some tricky parts to them in terms of syntax. For KituraNet the url might
+have to be broken down into schema, hostname, and path, which adds some overhead.
+For URLSession the auth is a bit tricky, in that you have to pass in the
+username and passwords as an encoded string, which adds some overhead as well.
+<mark>In terms of performance though, we have a clear winner:</mark> URLSession took about
+85ms to get the
+response, while KituraNet took around 280ms. In terms of the actual request,
+I think KitraNet is a bit easier to work with, since you have very simple
+syntax in HTTP.request, and only a response to work with. In conclusion, if
+performance is not an issue, it might be easier to work with KituraNet. Otherwise,
+URLSession is worth the extra overhead for the performance benefits. Please leave a comment if you have any questions.
