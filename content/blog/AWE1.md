@@ -1,6 +1,6 @@
 +++
 css = []
-date = "2017-05-26T14:18:15-07:00"
+date = "2017-06-01T14:18:15-07:00"
 description = ""
 draft = false
 highlight = true
@@ -21,34 +21,26 @@ In this blog, I am going to give my thoughts around my first big conference expe
 
 The first speaker that I saw was Zvi Greenstein from NVIDIA. One of the things that stood out from their presentation was their HoloDeck demo. The demo was a visualization of a car in incredibly beautiful VR world. You are able to see the hardware and materials of the car through AR, and are able to feel like you are driving this luxury car. What impressed me from this speaker was the aesthetic beauty of the image quality. They are in the forefront of visual computing as a company, and their hardware specs highlighted this. The immense picture quality was created by 50 million polygons.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/RcpsQ0Y5ytyIU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+<iframe class = "scroll-wrapper" width="560" height="450" src="https://www.youtube.com/embed/9lJhsBrEGfc" frameborder="0" allowfullscreen></iframe>
 <hr>
-
-<!-- <video id="sampleMovie" src="../../img/holodeck.MOV" controls></video>
-<hr> -->
-
 <h4 id="setup">HTC Vive</h4>
 <br>
 
 One interesting point that Richard Steiber from HTC Vive brought up was the spectrum of performance in current AR/VR headsets. The highest performance headsets are the ones that are wired and PC powered, while the worst ones are the mobile cardboard applications. Later on, they demoed a game in which a player has objects flying at them at a high speeds, almost similar to a tornado. The player is connected to the VIVE, and is playing in virtual reality, and can actually kick and hit the flying objects to break them. That was incredibly impressive to me, as the physics and objects looked very smooth and realistic, and it seemed like a very fun application of VR. The coolest concept from this talk was the idea that Artificial Intelligence could be trained in Virtual Reality. Imagine if instead of letting those self-driving cars roam around the streets to gather data, you could simply let the cars gather data in Virtual Reality. This would be extremely helpful. Not only would the cars be free from the possibility of harming others in car accidents, but also the data could be gathered at a much higher volume in Virtual Reality since the cars would not have to be physically built.
 <br>
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/wDjLUqy2RugWk" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<iframe class = "scroll-wrapper"width="560" height="450" src="https://www.youtube.com/embed/hKR0nq9V9Ck" frameborder="0" allowfullscreen></iframe>
 <hr>
-
-<!-- <video id="sampleMovie" src="../../img/htcVive.MOV" controls></video>
-<hr> -->
-
 <h4 id="setup">ODG</h4>
 <br>
 
 Keith Boesky from ODG had an extremely funny and inspiring presentation today. His product, the R-8 glasses, are moving to the future of headsets in that they are smaller, sleeker, and less expensive. The R-8 could pass for ordinary prescription glasses from a distance, which is a huge accomplishment for the company. The R-8 glasses have had the most success in the construction industry, where a worker could have up to hundreds of different instructions that he/she would have to perform. With the glasses, the work could be performed at about 34% faster than without the glasses, since the user would not have to keep flipping through the manual to look for instructions. In this way, the R-8 product is streamlining industry AR. Another cool example of AR in industry demonstrated by Keith was the Augmented Reality manual for Hyundai. The manual let's the user see the different parts of the engine in a colorful, 3D, and interactive environment. Another cool thing about these glasses is that they are THX certified, so they are held to very high visual standards. One thing that I am extremely interested in demoing tomorrow at the exhibition hall is the Citrex “SmartOffice” deal that ODG has which enables you to view your desktop with your R8 glasses. That means that instead of reading and checking your emails on your computer, you can simply have the interface in front of you, in Augmented Reality, thanks to the glasses. I'm interested to see just how obstructive this view will be. The videos below highlight the durability of the R-9's, which are designed for the construction industry, and have similar specs to the R-8's. The major difference between the two models are that the R-8 are much more slick, small, and light, while the R-9 are bulky and built to withstand almost any type of damage.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/rQId1sZtyuOTm" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p>
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/QmT4PQVUZ2taw" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p>
+<br>
 
-<!-- <video id="sampleMovie" src="../../img/r8.MOV" controls></video> -->
+<iframe class = "scroll-wrapper" width="560" height="450" src="https://www.youtube.com/embed/LyZHVTzfFg4" frameborder="0" allowfullscreen></iframe>
 
 <hr>
 
