@@ -1,5 +1,5 @@
 +++
-date = "2017-06-13T16:14:34-07:00"
+date = "2017-06-14T16:14:34-07:00"
 title = "Two Approaches to API Calls with Server-Side Swift"
 
 +++
