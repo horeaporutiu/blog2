@@ -2,6 +2,9 @@
     max-width: 100%;
     height: auto;
 }
+#ultra{
+  height: 30em;
+}
 
 .scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
