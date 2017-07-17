@@ -1,5 +1,5 @@
 +++
-date = "2017-07-10T16:14:34-07:00"
+date = "2017-07-16T16:14:34-07:00"
 title = "Thoughts on my first few months at IBM"
 
 +++
