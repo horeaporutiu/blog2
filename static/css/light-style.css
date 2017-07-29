@@ -1,3 +1,20 @@
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 200px; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92.5%;
+  height: 100%;
+}
+
 .pic {
     max-width: 100%;
     height: auto;
@@ -6,19 +23,16 @@
   height: 30em;
 }
 
-.scroll-wrapper {
+/*.scroll-wrapper {
 	-webkit-overflow-scrolling: touch;
   overflow-y: scroll;
   position: relative;
   width: 85%;
-
-	/* important:  dimensions or positioning here! */
 }
 
 .scroll-wrapper iframe {
   width: 100%;
-	/* nada! */
-}
+}*/
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

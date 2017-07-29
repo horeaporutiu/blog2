@@ -10,7 +10,11 @@ title = "Run Node.js server with Bluemix"
 
 +++
 Let's learn how to build that Node.js web-server using Bluemix! If you prefer video
-tutorials, please watch <a href="https://www.youtube.com/watch?v=enTQkCb8vlU&t=4s">my video</a> on this topic.
+tutorials, please watch the video below.
+
+<div class = "video-container" ><iframe
+src="https://www.youtube.com/embed/enTQkCb8vlU" allowfullscreen></iframe></div>
+<br>
 Before we start, you will need to do a few things.
 
 <hr>
@@ -79,14 +83,19 @@ Firstly, let’s open up our manifest.yml in your favorite text editor, mine bei
 Now we must come up with a unique URL for our site. This is done by changing the host: line in the manifest.yml file.
 
 Change the line host: hello-node to username-hello-node. Should look similar to this, except with your
-own user name, not mine. <img src="../../img/hostName.png" alt="Mountain View" style="width:600px;height:100px;">
+own user name, not mine.
+
+<img src="../../img/hostName.png" alt="Mountain View">
 
 One last command:
 
 <pre><code class="language-toml">$ cf push
 </code></pre>
+<br>
 
-If you run into this error <img src="../../img/failed.png" alt="Mountain View" style="width:600px;height:130px;"> it is because the name is not unique.
+<img src="../../img/failed.png" alt="Mountain View">
+
+If you run into the error above it is because the name is not unique.
 <hr>
 <h4 id="conclusion">Conclusion</h4>
 
