@@ -20,16 +20,19 @@ to check out the source code of the app I made in the video below you can find i
 <a href="https://github.com/horeaporutiu/text-to-speech-swift">here</a>. I simply added
 a language translation service on top of the existing text to speech service.
 
-
-<div class="scroll-wrapper" id = "youtube"><iframe width="560" height="315"
+<div class = "video-container" ><iframe
 src="https://www.youtube.com/embed/pN4BrtXp7lQ" allowfullscreen></iframe></div>
+<br>
 
 Below is the site that I launched with Kitura.
+<br>
 
 
-<div class="scroll-wrapper" id = "youtube"><iframe width="560" height="315"
+<br>
+
+<div class = "video-container" ><iframe
 src="https://www.youtube.com/embed/MKJIhObJLlg" allowfullscreen></iframe></div>
-
+<br>
 The site shown above can be found at https://horeaporutiu.github.io/watsonSpeaks/
 
 <hr>
@@ -150,10 +153,8 @@ Watch the video below to learn how to add the frameworks by going into our Carth
 and opening the correct file. The last step in the video shows adding the
 "Run Scrip Phase" in the "Build Phases" section of our app.
 
-<div class="scroll-wrapper" id = "youtube"><iframe width="560" height="315"
+<div class = "video-container" ><iframe
 src="https://www.youtube.com/embed/Y0jBojtzUk0" allowfullscreen></iframe></div>
-
-
 
 <br>
 <hr>
