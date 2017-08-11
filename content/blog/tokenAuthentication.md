@@ -4,8 +4,9 @@ title = "Token Authentication with OpenWhisk"
 
 +++
 Ready to launch that sweet Web-App that sweeps Siri out of the water? If so,
-you're in the right place. I'll show you how to <mark>generate a token
-server-side</mark> for Watson's Speech
+you're in the right place. I'll show you how to <mark>
+<a href="https://www.ibm.com/watson/developercloud/doc/common/getting-started-tokens.html">generate a token
+server-side</a></mark> for Watson's Speech
 To Text Service in your Web-App.
 
 <b><h4 id="setup">OpenWhisk</h4></b>
@@ -43,6 +44,7 @@ function main(params) {
 
   //promises are a way for our action to work asynchronously
   var promise = new Promise(function(resolve, reject) {
+    //using our Simplified HTTP request lient
     request({
       url:     speechToTextUrl,
       headers : {
@@ -79,4 +81,14 @@ what your Web Action URL is, read more <a href="https://console.bluemix.net/docs
 in your Web-App. Since we are using a serverless (Function As A Service) cloud platform, you don't have to keep your server up 24/7 as
 you would if you spun up an old-school Node.js server. What that means for you is that
 you'll be saving a lot of money since you are billed <mark>a very small
-percentage of a cent per second of execution</mark>. Now that's pretty neat :)  
+percentage of a cent per second of execution</mark>. Now that's pretty neat :) Check out
+the working example below.  
+
+<!-- <iframe src="https://giphy.com/embed/UJTYB5YX2X6z6" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/UJTYB5YX2X6z6">via GIPHY</a></p> -->
+
+<!-- <div style="width:100%;height:0;padding-bottom:63%;position:relative;"><iframe src="https://giphy.com/embed/N4pwD87JaIV7a" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/N4pwD87JaIV7a">via GIPHY</a></p> -->
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe
+ src="https://giphy.com/embed/UJTYB5YX2X6z6" width="100%" height="100%"
+  style="position:absolute" frameBorder="0" class="giphy-embed"
+   allowFullScreen></iframe></div><p>
