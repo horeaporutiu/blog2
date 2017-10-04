@@ -46,7 +46,7 @@ showprojects    = true # Show Projects section on home page
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
 project1link    = "https://stockbot.mybluemix.net/"
 project1img     = "img/stockBot.png"
-project1title   = "StockBot"
+project1title   = "StockBot: A chatbot for getting stock quotes in real time."
 
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
