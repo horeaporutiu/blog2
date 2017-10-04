@@ -41,20 +41,12 @@ showallposts    = true # Set 'true' to list all posts on home page, or set 'fals
 showlatest      = true # Show latest blog post summary
 sharebuttons    = true # On post pages, show share this social buttons
 
-showprojects    = false # Show Projects section on home page
+showprojects    = true # Show Projects section on home page
 
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#"
-project1img     = "img/project1.jpg"
-project1title   = "Project 1"
-
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
-
-project3link    = "#"
-project3img     = "img/project3.jpg"
-project3title   = "Project 3"
+project1link    = "https://stockbot.mybluemix.net/"
+project1img     = "img/stockBot.png"
+project1title   = "StockBot"
 
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
