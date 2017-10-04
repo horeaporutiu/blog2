@@ -48,6 +48,9 @@ project1link    = "https://stockbot.mybluemix.net/"
 project1img     = "img/stockBot.png"
 project1title   = "StockBot: A chatbot for getting stock quotes in real time."
 
+project2link    = "https://watsontonetranslate.mybluemix.net/"
+project2img     = "img/watsonTranslate.png"
+project2title   = "A language translation app that detects the tone of the user."
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
