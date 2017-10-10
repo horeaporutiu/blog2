@@ -28,17 +28,8 @@ Workspace ID to have handy for later.
 
 In my code, I will set up a simple server to run on port 8081(not shown below for simplicity), and then create an instance of the Watson Conversation API. You will need your own username and password from your Bluemix credentials page. 
 
-```javascript
-var watson = require('watson-developer-cloud');
+<script src="https://gist.github.com/horeaporutiu/c028deba0115422f39b785f158644220.js"></script>
 
-var conversation = watson.conversation({
-    username: conversationUserame,
-    password: conversationPassword,
-    version: 'v1',
-    version_date: '2017-05-26'
-  });
-
-```
 <br>
 I then call the message API (you need to input your workspace id from above),
  and pass in a phrase that will trigger our 'translate' intent. Then, in our callback
@@ -47,69 +38,15 @@ will call our external API). <b> Your translate function can be different than m
 external call to the API.</b> After our external API returns, we simply set the output text to be the response of our
 API call. 
 
-```javascript
-var context = {};
-  
-  conversation.message({
-    workspace_id: 'your workspace id',
-    input: {'text': 'translate this phrase.'},
-    context: context
-  },  function(err, response) {
-    if (err)
-      console.log('error:', err);
-    else {
-      console.log(response)
-      if(response.intents.length > 0 && response.intents[0].intent === 'translate'){
-        translate(response.input.text).then(function(translatedResopnse){
-          response.output.text = translatedResopnse
-          console.log(JSON.stringify(response,null,2))        
-        });
-      }
-    }
+<script src="https://gist.github.com/horeaporutiu/a0f2bbc54a6a60d207ca0607e0dbd0a6.js"></script>
 
-  });
-
-```
-<br>
 That's pretty much all there is to it. Also, here is the translate function, which will call the Watson Translation 
 API and translate the phrase from our user. You will need service credentials for this call as you did for the 
 Conversation API. I return a promise to make sure that only after the external API finished, the Conversation will
 return the response to the user. Otherwise, we might get errors.
+<br>
 
-```javascript
-function translate(userInput) {
-
-  return new Promise((resolve, reject) => {
-
-    var data = {};
-    
-    data.source = 'en';
-    data.target = 'es';
-    data.text = userInput;
-    
-    request.post({
-        headers: {'content-type':'application/json'},
-        url : transUrl,
-        json : data,
-        auth: {
-          user: translationUsername,
-          pass: translationPassword
-        }
-    }, function (error, response, body){
-        if (error) {
-            console.log(error);
-            resolve(error);
-        } else {
-            console.log(body);
-            resolve(body.translations[0].translation);
-        }
-    });
-
-  });        
-
-}
-
-```
+<script src="https://gist.github.com/horeaporutiu/e0ecf869417eac1057a59c577d031ab9.js"></script>
 
 <b><h4 id="setup">Results</h4></b>
 
@@ -122,6 +59,7 @@ Our console should look something like this if everything went smoothly. <img cl
 Watson Conversation is an extremely powerful service that can be 
 used to call external APIs with moderate ease. If you need more help,
 please also check out the official <a href="https://www.ibm.com/watson/developercloud/conversation/api/v1/?node#send_message">API docs</a>.
+
 
 
 
