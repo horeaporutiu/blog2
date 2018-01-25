@@ -21,7 +21,7 @@ firstname     = "Horea" # First name shows in introduction on main page
 tagline       = "I write and talk code." # Appears after the introduction
 introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
 theme         = "light" # Choose 'light' or 'dark'
-avatar        = "img/profPic.JPG" # Path to image in static folder eg. img/avatar.png
+avatar        = "img/avatar.jpg" # Path to image in static folder eg. img/avatar.png
 email         = "horeaporutiu@gmail.com" # Shows in contact section, or leave blank to omit
 localtime     = true # Show your current local time in contact section
 timezone      = "America/Los_Angeles" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -67,8 +67,8 @@ project2title   = "A language translation app that detects the tone of the user.
 # 	faicon = "linkedin"
 # 	url = "https://linkedin.com/in/hporutiu"
 # 	[[params.socialbuttons]]
-# 	faicon = "stack-overflow"
-# 	url = "https://stackoverflow.com/users/6785292/horea-porutiu?tab=profile"
+# 	faicon = "medium"
+# 	url = "https://medium.com/@horeaporutiu"
 # 	[[params.socialbuttons]]
 # 	faicon = "youtube"
 # 	url = "https://www.youtube.com/user/horeaporutiu"
@@ -91,8 +91,8 @@ url = "https://www.youtube.com/user/horeaporutiu"
 icon = "youtube"
 
 [[params.social]]
-url = "https://stackoverflow.com/users/6785292/horea-porutiu?tab=profile"
-icon = "stack-overflow"
+url = "https://medium.com/@horeaporutiu"
+icon = "medium"
 
 # baseurl = "https://horeaporutiu.github.io/"
 # theme = "hugo-geo"
@@ -116,7 +116,7 @@ icon = "stack-overflow"
 #
 # 	email = "horeaporutiu@gmail.com"
 #
-# 	profilepic = "img/profPic.JPG"
+# 	profilepic = "img/avatar.png"
 #
 # 	title = "Horea Porutiu"
 # 	subtitle = "Software Engineer"
