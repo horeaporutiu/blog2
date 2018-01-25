@@ -31,8 +31,6 @@ My account yesterday. No more stress.
 11. Check the financials of companies you like and make sure they have positive double-digit growth in at least 3 out of the 4 key ratios. Return on invested capital, Earning per share, book value per share, and free cash flow.<br>
 
 
-
-
 <center><i><br>“Bulls make money, bears make money, pigs get slaughtered” — Jim Cramer </i> </center>
 
 

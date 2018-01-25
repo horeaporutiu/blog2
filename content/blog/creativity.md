@@ -1,5 +1,5 @@
 +++
-date = "2018-01-19T20:10:28-08:00"
+date = "2018-01-20T20:10:28-08:00"
 title = "Creativity & Inspiration"
 
 +++
